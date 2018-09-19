@@ -1,0 +1,57 @@
+ACIInputValidator.xcodeproj/xcuserdata/
+ACIInputValidator.xcworkspace/
+Pods/
+*.swp
+.DS_Store
+ACIInputValidator.xcodeproj/project.xcworkspace/xcuserdata/
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
+# deliver temporary files
+fastlane/Preview.html
+# scan temporary files
+fastlane/test_output
+
+#fastlane build path
+outputdir
+builddir
+*.xcarchive
